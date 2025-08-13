@@ -1,41 +1,12 @@
-*.log
-*.pot
-*.pyc
-local_settings.py
-db.sqlite3
-**/migrations
-*.DS_Store
-**/__pycache__
-**/.DS_Store
-
-# IDE
-.vscode/
-
-# Environment Vars
-env
+# general
+.DS_Store
 .env
-.env.dev
-.env.production
-
-# Python cache
-.pytest_cache/
+.env.*
 __pycache__/
-
-# Python env
-venv*
-.venv*
-venv-people
-
-# sqlite
-*.db
-
-# Tests
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
 .coverage
-
-#Images
-static/images**
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+dist/
+build/
+node_modules/
